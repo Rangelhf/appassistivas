@@ -16,5 +16,4 @@ sudo apt install nodejs
 [Tutorial Cordova Iniciantes](https://cordova.apache.org/#getstarted)
 
 
-## Título 1
 
