@@ -24,6 +24,7 @@ cordova platform
 cordova platform add android
 
 #Run App
+cordova build 
 cordova run android
 
 ```
