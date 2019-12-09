@@ -27,6 +27,9 @@ cordova platform add android
 cordova build 
 cordova run android
 
+# Adding Plugin
+cordova plugin add cordova-plugin-geolocation
+
 ```
 
 ## Using again
@@ -39,6 +42,4 @@ npm install
 ## References
 
 [Tutorial Cordova Iniciantes](https://cordova.apache.org/#getstarted)
-
-
 

@@ -1,11 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
 
-01 <!DOCTYPE html>
-02 <html>
-03 <head>
-04     <meta charset="UTF-8"/>
-05     <title>Appassistivas</title>
-06 </head>
-07 <body>
-08    <h1>teste</h1>
-09 </body>
-10 </html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AppAssistiva</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <style>
+        div {
+            margin-bottom: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <label class="col-sm-3">Nome</label>
+            <input type="text" class="col-sm-9 form-control">
+        </div>
+
+        <div class="row">
+            <label class="col-sm-3">Descrição</label>
+            <input type="text" class="col-sm-9 form-control">
+        </div>
+        <div class="row">
+            <label class="col-sm-3">Latitude</label>
+            <input type="text" class="col-sm-9 form-control">
+        </div>
+        <div class="row">
+            <label class="col-sm-3">Longetude</label>
+            <input type="text" class="col-sm-9 form-control">
+        </div>
+        <button class="col-sm-12 btn btn-primary">
+            Obter Localização
+        </button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
